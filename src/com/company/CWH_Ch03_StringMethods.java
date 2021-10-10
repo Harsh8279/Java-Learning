@@ -12,8 +12,19 @@ public class CWH_Ch03_StringMethods {
         System.out.println(lowerCaseName);
         String upperCaseName = name.toUpperCase();
         System.out.println(upperCaseName);
-        String trimmedStringName = name.trim();     // remove spaces
+        String trimmedStringName = name.trim();     // remove spaces from start and end
         System.out.println(trimmedStringName);
         System.out.println(name);
+
+        System.out.println(name.substring(3));
+        System.out.println(name.substring(1,4));
+
+        String str = "Harsh";
+        System.out.println(str.replace("r","d"));
+        System.out.println(str.replace("rsh","aa"));
+        System.out.println(str.replace("r","hi"));
+
+
+
     }
 }
