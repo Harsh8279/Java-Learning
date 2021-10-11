@@ -52,12 +52,23 @@ public class CWH_Ch03_Ps {
 
         /*
             Q-4 Write a Java Program to detect  double and triple space in a string.
-         */
+
 
         String str = "Hii  Hello   ";
         System.out.println(str.indexOf("  "));
         System.out.println(str.indexOf("   "));
 
+         */
+
+        /*
+            Q-5 Write a program to format the following letter using escape sequence characters.
+
+            letter = "Dear Harsh, This Java Course is nice, Thanks"
+
+         */
+
+        String str = "\tDear Harsh,\n This Java Course is nice,\tThanks";
+        System.out.println(str);
 
 
     }
