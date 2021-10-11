@@ -23,7 +23,7 @@ public class CWH_Ch03_Ps {
         *
         *  Q-2 Write a Java Program to replace space with Underscores
         *
-        * */
+
 
         System.out.println("ENter The String : ");
         String str = sc.nextLine();
@@ -31,5 +31,26 @@ public class CWH_Ch03_Ps {
         str = str.replace(" ","_");
 
         System.out.println(str);
+         */
+
+        /*
+
+        Q-3 Write java program which replace name to user entered name
+
+            letter = "Dear <|name|>, Thanks a Lot!!!"
+
+
+         */
+
+
+        String letter = "Dear name, Thanks a lot!!";
+
+        System.out.print("Enter name : ");
+        String name = sc.nextLine();
+
+        letter = letter.replace("name",name);
+
+        System.out.println(letter);
+
     }
 }
