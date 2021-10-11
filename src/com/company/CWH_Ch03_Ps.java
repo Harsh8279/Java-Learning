@@ -39,10 +39,6 @@ public class CWH_Ch03_Ps {
 
             letter = "Dear <|name|>, Thanks a Lot!!!"
 
-
-         */
-
-
         String letter = "Dear name, Thanks a lot!!";
 
         System.out.print("Enter name : ");
@@ -51,6 +47,18 @@ public class CWH_Ch03_Ps {
         letter = letter.replace("name",name);
 
         System.out.println(letter);
+
+        */
+
+        /*
+            Q-4 Write a Java Program to detect  double and triple space in a string.
+         */
+
+        String str = "Hii  Hello   ";
+        System.out.println(str.indexOf("  "));
+        System.out.println(str.indexOf("   "));
+
+
 
     }
 }
